@@ -30,8 +30,8 @@ public class Enemy
     Map map;
 
     //Damage
-    private int currentHit;
-    private Sound sound;
+    private int currentHit; // number hit in a round
+    private Sound sound; // sound played when it
     public boolean isDead;
     int life;
     int knockCount; // number of it before getting knockback

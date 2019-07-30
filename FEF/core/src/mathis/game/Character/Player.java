@@ -15,6 +15,7 @@ import mathis.game.DungeonConstruction.Tile;
 import mathis.game.DungeonConstruction.TilePath;
 import mathis.game.Screens.StandardScreen;
 import mathis.game.Ui.ActionUI;
+import mathis.game.Ui.GoldUi;
 import mathis.game.Ui.LifeBar;
 import mathis.game.Ui.MovementUI;
 
@@ -49,6 +50,7 @@ public class Player
     private PathFinding path;
     private ActionUI actionUI;
     private MovementUI movementUi;
+    private GoldUi goldUi;
 
 
     public Player()
